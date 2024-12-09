@@ -1,0 +1,18 @@
+# dune utop
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Shared cache location: /home/elie/.cache/dune/db
+# Workspace root: "/home/elie/Downloads/projet(2) (1)/projet"
+# Auto-detected concurrency: 16
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ /home/elie/.opam/4.12.0/bin/ocamlc.opt -config > /tmp/dune_fa9f10_output
+$ (cd _build/default && /home/elie/.opam/4.12.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -24 -g -bin-annot -I .utop/.utop.eobjs/byte -I /home/elie/.opam/4.12.0/lib/bytes -I /home/elie/.opam/4.12.0/lib/findlib -I /home/elie/.opam/4.12.0/lib/lambda-term -I /home/elie/.opam/4.12.0/lib/logs -I /home/elie/.opam/4.12.0/lib/lwt -I /home/elie/.opam/4.12.0/lib/lwt/unix -I /home/elie/.opam/4.12.0/lib/lwt_react -I /home/elie/.opam/4.12.0/lib/mew -I /home/elie/.opam/4.12.0/lib/mew_vi -I /home/elie/.opam/4.12.0/lib/ocaml/compiler-libs -I /home/elie/.opam/4.12.0/lib/ocaml/threads -I /home/elie/.opam/4.12.0/lib/ocplib-endian -I /home/elie/.opam/4.12.0/lib/ocplib-endian/bigstring -I /home/elie/.opam/4.12.0/lib/react -I /home/elie/.opam/4.12.0/lib/result -I /home/elie/.opam/4.12.0/lib/trie -I /home/elie/.opam/4.12.0/lib/uchar -I /home/elie/.opam/4.12.0/lib/utop -I /home/elie/.opam/4.12.0/lib/uucp -I /home/elie/.opam/4.12.0/lib/uuseg -I /home/elie/.opam/4.12.0/lib/uutf -I /home/elie/.opam/4.12.0/lib/xdg -I /home/elie/.opam/4.12.0/lib/zed -I Proposition/.Proposition.objs/byte -no-alias-deps -o .utop/.utop.eobjs/byte/dune__exe__Utop.cmo -c -impl .utop/utop.ml-gen)
+$ (cd _build/default && /home/elie/.opam/4.12.0/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -24 -g -o .utop/utop.bc /home/elie/.opam/4.12.0/lib/ocaml/compiler-libs/ocamlcommon.cma /home/elie/.opam/4.12.0/lib/ocaml/compiler-libs/ocamlbytecomp.cma /home/elie/.opam/4.12.0/lib/ocaml/compiler-libs/ocamltoplevel.cma /home/elie/.opam/4.12.0/lib/findlib/findlib.cma /home/elie/.opam/4.12.0/lib/findlib/findlib_top.cma /home/elie/.opam/4.12.0/lib/logs/logs.cma /home/elie/.opam/4.12.0/lib/lwt/lwt.cma /home/elie/.opam/4.12.0/lib/logs/logs_lwt.cma /home/elie/.opam/4.12.0/lib/ocaml/unix.cma /home/elie/.opam/4.12.0/lib/ocaml/bigarray.cma /home/elie/.opam/4.12.0/lib/ocplib-endian/ocplib_endian.cma /home/elie/.opam/4.12.0/lib/ocplib-endian/bigstring/ocplib_endian_bigstring.cma /home/elie/.opam/4.12.0/lib/ocaml/threads/threads.cma /home/elie/.opam/4.12.0/lib/lwt/unix/lwt_unix.cma -I /home/elie/.opam/4.12.0/lib/lwt/../stublibs /home/elie/.opam/4.12.0/lib/react/react.cma /home/elie/.opam/4.12.0/lib/lwt_react/lwt_react.cma /home/elie/.opam/4.12.0/lib/result/result.cma /home/elie/.opam/4.12.0/lib/uutf/uutf.cma /home/elie/.opam/4.12.0/lib/uucp/uucp.cma /home/elie/.opam/4.12.0/lib/uuseg/uuseg.cma /home/elie/.opam/4.12.0/lib/zed/zed.cma /home/elie/.opam/4.12.0/lib/trie/trie.cma /home/elie/.opam/4.12.0/lib/mew/mew.cma /home/elie/.opam/4.12.0/lib/mew_vi/mew_vi.cma /home/elie/.opam/4.12.0/lib/lambda-term/lambda_term.cma -I /home/elie/.opam/4.12.0/lib/lambda-term/../stublibs /home/elie/.opam/4.12.0/lib/xdg/xdg.cma -I /home/elie/.opam/4.12.0/lib/xdg/../stublibs /home/elie/.opam/4.12.0/lib/utop/uTop.cma /home/elie/.opam/4.12.0/lib/ocaml/str.cma Proposition/Proposition.cma .utop/.utop.eobjs/byte/dune__exe__Utop.cmo -linkall -warn-error -31)

@@ -1,0 +1,1 @@
+Proposition/Quine.ml: Formule
